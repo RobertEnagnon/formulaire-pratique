@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="signup-form">
+        <h2>Inscription</h2>
+        <form action="" id="registrationForm">
+            <div class="form-group">
+                <label for="username">Nom d'utilisateur</label>
+                <input type="text" name="username" id="username" required>
+                <small class="error-message" id="usernameError"></small>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" required>
+                <small class="error-message" id="emailError"></small>
+            </div>
+            <div class="form-group">
+                <label for="password">Mot de passe</label>
+                <input type="password" name="password" id="password" required>
+                <small class="error-message" id="passwordError"></small>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirmer le mot de passe</label>
+                <input type="password" name="confirmPassword" id="confirmPassword" required>
+                <small class="error-message" id="confirmPasswordError"></small>
+            </div>
+            <button type="submit">S'inscrire</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
